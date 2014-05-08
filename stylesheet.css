@@ -13,3 +13,21 @@ html, body {
 	background-color: red;
 	border-radius:25px;
 }
+
+#wood{
+	position: absolute;
+}
+
+.wood01{
+	background-image: url('img/wood01.jpg');	
+}
+.wood02{
+	background-image: url('img/wood02.jpg');	
+}
+.wood03{
+	background-image: url('img/wood03.jpg');	
+}
+.wood04{
+	background-image: url('img/wood04.jpg');	
+}
+

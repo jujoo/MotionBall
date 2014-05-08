@@ -20,13 +20,13 @@ $(document).ready(function(){
 
 	var firepoint = function(){
 			if(shakepoint > 150){
-	          &('.w01').addClass('w04');
+	        	$('.w01').addClass('w04');
 	        }
 	        else if(shakepoint > 100){
-	           &('.w01').addClass('w03');
+	        	$('.w01').addClass('w03');
 	        }
 	        else if (shakepoint > 50){
-	           &('.w01').addClass('w02');
+	        	$('.w01').addClass('w02');
 	        }
 	}
 	

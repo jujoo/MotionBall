@@ -19,7 +19,7 @@ $(document).ready(function(){
 	}
 
 	var firepoint = function(){
-			if(shakepoint > 15){
+			if(shakepoint > 20){
 	        	$('.w01').addClass('w04');
 	        }
 	        else if(shakepoint > 10){

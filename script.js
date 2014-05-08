@@ -19,13 +19,13 @@ $(document).ready(function(){
 	}
 
 	var firepoint = function(){
-			if(shakepoint > 150){
+			if(shakepoint > 15){
 	        	$('.w01').addClass('w04');
 	        }
-	        else if(shakepoint > 100){
+	        else if(shakepoint > 10){
 	        	$('.w01').addClass('w03');
 	        }
-	        else if (shakepoint > 50){
+	        else if (shakepoint > 5){
 	        	$('.w01').addClass('w02');
 	        }
 	}
@@ -61,7 +61,7 @@ $(document).ready(function(){
 
 	window.addEventListener("devicemotion", handleMotionEvent, true);
 	//setInterval(shake,100); // 계속 이 함수가 돌아가게 만들기 위해 선언함. 0.1초마다 이 함수가 실행됨(1000 = 1초)
-	shake();
-	firepoint();
+	setInterval(shake,100); // 계속 이 함수가 돌아가게 만들기 위해 선언함. 0.1초마다 이 함수가 실행됨(1000 = 1초)
+	setInterval(firepoint,500);
 
 });

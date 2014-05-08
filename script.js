@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 	console.log("ready");	
 
 	function handleMotionEvent(event) {
@@ -43,4 +43,12 @@ $(document).ready(function(){
 
 	$("#ball").css("left", 30);
 	$("#ball").css("top", 30);
-});
+}); */
+
+var shakepoint = 0;
+var flag = 0;
+
+if(shakepoint === 0){
+
+
+}

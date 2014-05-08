@@ -2,7 +2,7 @@ html, body {
 	margin:0;
 }
 
-#ball{
+/*#ball{
 	position: absolute;
 	width: 50px;
 	height: 50px;
@@ -12,22 +12,30 @@ html, body {
 
 	background-color: red;
 	border-radius:25px;
-}
-
-#wood{
+}*/
+div{
+	overflow: hidden;
 	position: absolute;
 }
 
-.wood01{
+.w01{
 	background-image: url('img/wood01.jpg');	
+	width: 1333px;
+	height: 1455px;
 }
-.wood02{
+.w02{
 	background-image: url('img/wood02.jpg');	
+	width: 1333px;
+	height: 1455px;
 }
-.wood03{
+.w03{
 	background-image: url('img/wood03.jpg');	
+	width: 1333px;
+	height: 1455px;
 }
-.wood04{
+.w04{
 	background-image: url('img/wood04.jpg');	
+	width: 1333px;
+	height: 1455px;
 }
 

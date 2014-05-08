@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
 	console.log("ready");
 	
@@ -18,6 +16,18 @@ $(document).ready(function(){
 			shakepoint++;              // 위의 if문은 x가 양수일때 +1
 			flag = -1;                 //  else if문은 x가 음수일때 +1
 		}
+	}
+
+	var firepoint = function(){
+		if(shakepoint > 150){
+	          &('.wood01").addClass('wood04');
+	        }
+	        else if(shakepoint > 100){
+	           &('.wood01").addClass('wood03');
+	        }
+	        else if (shakepoint > 50){
+	           &('.wood01").addClass('wood02');
+	        }
 	}
 	
 	function handleMotionEvent(event) {
@@ -53,18 +63,4 @@ $(document).ready(function(){
 	//setInterval(shake,100); // 계속 이 함수가 돌아가게 만들기 위해 선언함. 0.1초마다 이 함수가 실행됨(1000 = 1초)
 	shake();
 
-});
-
-$(document).ready(function(){
-	var firepoint = function(){
-		if(shakepoint > 150){
-	          &('.1").addClass('4');
-	        }
-	        else if(shakepoint > 100){
-	           &('.1").addClass('3');
-	        }
-	        else (shakepoint > 50){
-	           &('.1").addClass('2');
-	        }
-	}
 });

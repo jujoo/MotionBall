@@ -20,13 +20,13 @@ $(document).ready(function(){
 
 	var firepoint = function(){
 		if(shakepoint > 150){
-	          &('.wood01").addClass('wood04');
+	          &('.w01').addClass('w04');
 	        }
 	        else if(shakepoint > 100){
-	           &('.wood01").addClass('wood03');
+	           &('.w01').addClass('w03');
 	        }
 	        else if (shakepoint > 50){
-	           &('.wood01").addClass('wood02');
+	           &('.w01').addClass('w02');
 	        }
 	}
 	
